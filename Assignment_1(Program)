@@ -1,0 +1,33 @@
+PROGRAM:
+
+inp = []
+new_inp = ''
+while new_inp != 'z':
+    new_inp = input("ENETR CHARACTER (or) 'z' to quit : ")
+    if new_inp != 'z':
+        inp.append(new_inp)
+l = len(inp)
+print("\n THE LENGHT OF THE INPUT : ",l)
+count = {}
+for i in inp:
+    if i in count:
+        count[i] += 1
+    else:
+        count[i] = 1
+print("\n NUMBER OF TIMES IS : \n"+str(count))
+
+
+OUTPUT:
+
+ENTER CHARACTER (or) 'z' to quit : a
+ENTER CHARACTER (or) 'z' to quit : b
+ENTER CHARACTER (or) 'z' to quit : c
+ENTER CHARACTER (or) 'z' to quit : b
+ENTER CHARACTER (or) 'z' to quit : n
+ENTER CHARACTER (or) 'z' to quit : a
+ENTER CHARACTER (or) 'z' to quit : z
+
+THE LENGHT OF THE INPUT :  6
+
+NUMBER OF TIMES IS : 
+{'a': 2, 'b': 2, 'c': 1, 'n': 1}
