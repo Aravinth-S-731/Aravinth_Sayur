@@ -1,0 +1,10 @@
+STEP:1 - Using while loop, Get input from the user and store it in a variable "inp" as array.
+STEP:2 - Whwn the user input charater is 'z', Stop getting the input and run the program.
+STEP:3 - Split the input into separate characters using split() function.
+STEP:4 - Initialize a variable to diplay the number of characters present (count = {}).
+STEP:5 - Using for loop, run each and every input character and compare it all characters in the input.
+STEP:6 - Using if condition, check whether character in 'i' is same as character in 'inp'.
+STEP:7 - If condition is true increment count to 1 (count++).
+STEP:8 - Else the count remains as '1'.
+STEP:9 - Repeate (step:5), (step:7) and (step:7) until all the characters in the input is checked.
+STEP:10 - Print the value of count respective to the character.
